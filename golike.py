@@ -134,7 +134,7 @@ for i in range(len(account['data'])):
 stt = int(input(trang+"Chọn tài khoản để auto: "+vang))
 os.system('clear')
 inten(do,xanh,xduong,vang,syan)
-print(vang+"TOOL BY NAMTOOL")
+print(vang+"TOOL BY HIẾU TOOL")
 print(vang+"TÀI KHOẢN ĐANG AUTO: "+trang+listname[stt]+"=> "+vang+"ID:"+trang+str(listid[stt]))
 print(trang+"=====================================================================")
 tong = 0
@@ -187,7 +187,7 @@ while True:
         tong = tong + 1 
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
-        title = trang+"_NAM_TOOL_"+do+" ❖  "+trang+current_time+do+" ❖  "+vang+type_acction+do+" ❖  "+vang+str(id_job)+do+" ❖  "+trang+"+"+str(xu)+do+" ⇒  "+do+"["+vang+str(tong)+do+"]              \n"
+        title = trang+"_HIẾU_TOOL_"+do+" ❖  "+trang+current_time+do+" ❖  "+vang+type_acction+do+" ❖  "+vang+str(id_job)+do+" ❖  "+trang+"+"+str(xu)+do+" ⇒  "+do+"["+vang+str(tong)+do+"]              \n"
         cc(title)
     elif (success == 0):
         print(do+"JOB LỖI, BỎ QUA NHIỆM VỤ                                    ",end = "\r")
