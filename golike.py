@@ -1,7 +1,6 @@
 import requests,sys,os,time,json
 from datetime import date
 from datetime import datetime
-import random
 # tz_VietNam = pytz.timezone('Asia/Ho_Chi_Minh')
 ctt = "Nếu bạn cho rằng nội dung này không vi phạm Tiêu chuẩn cộng đồng của chúng tôi,"
 cp1 = "Tham gia Facebook hoặc đăng nhập để tiếp tục."
@@ -155,8 +154,8 @@ while True:
     object_id = getjob['data']['object_id']
     os.system('termux-open '+link)
     # os.system('start '+link)
-    a = random.randint(7,20)
-    for i in range(int(a)):
+    random
+    for i in range(11,0,-1):
         if (type_acction == "follow"):
             print(vang+'VUI LÒNG THỰC HIỆN FOLLOW TRONG '+trang+str(i)+syan+' GIÂY                                  ',end= "\r")
         elif (type_acction == "like"):
