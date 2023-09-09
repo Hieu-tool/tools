@@ -154,7 +154,6 @@ while True:
     object_id = getjob['data']['object_id']
     os.system('termux-open '+link)
     # os.system('start '+link)
-    random
     for i in range(11,0,-1):
         if (type_acction == "follow"):
             print(vang+'VUI LÒNG THỰC HIỆN FOLLOW TRONG '+trang+str(i)+syan+' GIÂY                                  ',end= "\r")
